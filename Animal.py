@@ -47,6 +47,9 @@ class Person(Animal):
         if new_friend:
             self.friends.add(new_friend)
 
+    def speak(self):
+        print("Hello")
+
 
 cat = Animal(4)
 print("Cat's age is: ", cat.get_age())
@@ -73,3 +76,4 @@ maria.add_friend("George")
 maria.add_friend("George")
 print(maria.get_friends())
 print(maria)
+ion.speak()
